@@ -12,7 +12,7 @@ export const elements = {
 };
 
 export const BASE_URL = 'https://pixabay.com/api/';
-export const API_KEY = '40998850-21238c0a5b68611eff0d55619';
+export const API_KEY = '41602641-335399080deea0c2e9177ea96';
 export const options = {
   params: {
     key: API_KEY,
