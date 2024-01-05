@@ -85,8 +85,6 @@ function renderGallery(hits) {
 
     galleryEl.insertAdjacentHTML('beforeend', markup);
 
-    
-
     if (options.params.page * options.params.per_page >= totalHits) {
         if (!reachedEnd) {
         Notify.info("We're sorry, but you've reached the end of search results.");
@@ -129,9 +127,7 @@ function renderGallery(hits) {
         !isLoadingMore &&
         !reachedEnd
     ) {
-
-    }
-    }
+}}
 
     elements.loadMoreBtn.addEventListener('click', loadMoreOnClick);
 
@@ -159,8 +155,8 @@ function renderGallery(hits) {
         if (hits.length === 0) {
         Notify.failure(
             'Sorry, there are no images matching your search query. Please try again.'
-        );
-        } else {
+            );
+    } else {
         Notify.success(`Hooray! We found ${totalHits} images.`);
         renderGallery(hits);
         }
