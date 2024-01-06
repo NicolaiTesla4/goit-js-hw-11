@@ -1,16 +1,14 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
-h1,
-h2,
-p {
+h1,h2,p {
     margin: 0;
 }
 
 html {
-    background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+    background-image: linear-gradient(to right, #b6fbff, #5FFF2B);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,7 +16,7 @@ html {
 body {
     overflow-x: hidden;
     max-width: 100%;
-    background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+    background-image: linear-gradient(to right, #b6fbff, #5FFF2B);
     background-repeat: no-repeat;
     background-size: cover;
 }
